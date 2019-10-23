@@ -1,5 +1,5 @@
 // VSCode 限定だが、 @ts-check つけると JS の方でも
-// Type Checking してくれる
+// Type Checking してくれる (なくても動いてるけど…)
 //@ts-check
 
 import { addition } from './ts/calc';
