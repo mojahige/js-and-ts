@@ -4,6 +4,8 @@
 
 import { addition } from './ts/calc';
 
+console.log(addition('hoge', 2));
+
 // 'checkJs' をつけると、JSDoc を見て TS のファイルでチェックしてくれる。
 /**
  * @param {string} x
@@ -11,4 +13,3 @@ import { addition } from './ts/calc';
  */
 export const hoge = x => x;
 
-console.log(addition('hoge', 2));
