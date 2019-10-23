@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
     "lint": "tsc --noEmit && eslint --ext .ts,.js --quiet --ignore-path .gitignore ."
   },
   "author": "Yu Nozato",
@@ -16,6 +16,9 @@
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
     "prettier": "^1.18.2",
-    "typescript": "^3.6.4"
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
   }
 }
