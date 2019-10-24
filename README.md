@@ -2,7 +2,7 @@
 JavaScript と TypeScript をどんだけ共存させられるのかをテスト
 
 ## Attention
-Only VSCode is checked 👀
+Checked VSCode only 👀
 
 ## npm script
 ```bash
