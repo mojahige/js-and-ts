@@ -1,6 +1,9 @@
 # Javascript and TypeScript
 JavaScript と TypeScript をどんだけ共存させられるのかをテスト
 
+## Attention
+Only VSCode is checked 👀
+
 ## npm script
 ```bash
 # build
